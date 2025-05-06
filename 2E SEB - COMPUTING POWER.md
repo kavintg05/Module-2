@@ -21,7 +21,7 @@ To write a Python program to compute the power of a given number using an approp
 
 ### PROGRAM
 
-```
+
 #Reg.NO-212223060119
 #Name-Kavindra T G
 base = float(input("Enter the base number: "))
@@ -29,7 +29,7 @@ exp = float(input("Enter the exponent: "))
 result = pow(base, exp)
 print(f"{base} raised to the power of {exp} is {result}")
 
-```
+
 ### OUTPUT
 ![image](https://github.com/user-attachments/assets/bde2394f-ec03-42c6-aab3-08fe7fcd5607)
 
