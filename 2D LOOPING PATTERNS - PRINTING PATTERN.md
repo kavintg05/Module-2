@@ -25,12 +25,22 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223060119
+#Name:Kavindra T G
 #Add Your Code Here
+n = int(input("Enter the number of rows: "))
+i = 0
+for rows in range(n):
+    print(" " * (((n - rows - 1) * 2) + i), end="")
+    i += 1
+    for star in range(rows + 1):
+        print("*", end="  ")
+    print("")
 
 ```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/0b982213-7c67-4fc2-8713-ccc5a35284a5)
 
 ### RESULT
+Thus, the python program to print a triangular star pattern using loops has been executed and verified successfully.
