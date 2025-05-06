@@ -43,7 +43,7 @@ relation(num1, num2)
 
 
 ### RESULT
-Thus, the python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+Thus, the python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function has been executed and verified successfully.
 
 
 
