@@ -7,7 +7,7 @@ To write a Python program to check if a number is a Perfect number using the con
 ---
 
 ### ALGORITHM
-
+    
 1. Begin the program.  
 2. Read the number `n` from the user using `input()`.  
 3. Convert the input to an integer.  
@@ -22,11 +22,25 @@ To write a Python program to check if a number is a Perfect number using the con
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
+#Reg.No:212223060119
+#Name:Kavindra T G
 #Add your Code Here
+def perfectNumber(n):
+    factor_sum = 0
+    for i in range(1, n // 2 + 1):
+        if n % i == 0:
+            factor_sum += i
+    if factor_sum == n:
+        print(n, "is a Perfect Number")
+    else:
+        print(n, "is not a Perfect Number")
+
+n = int(input("Enter a number: "))
+perfectNumber(n)
 
 ```
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/d9efd5cf-4db3-4024-84d2-335d96a4a0af)
 
 ### RESULT
+Thus, the python program to check if a number is a Perfect number using the concept of functions has been executed and verified successfully.
